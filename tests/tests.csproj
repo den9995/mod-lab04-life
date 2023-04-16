@@ -16,5 +16,19 @@
   <ItemGroup>
     <ProjectReference Include="..\Life\Life.csproj" />
   </ItemGroup>
+  <ItemGroup>
+      <None Update="config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+      <None Update="box.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+      <None Update="block.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+      <None Update="out2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
