@@ -1,2 +1,6 @@
 Life/bin/
 Life/obj/
+Life/run.sh
+tests/run.sh
+tests/bin/
+tests/obj/

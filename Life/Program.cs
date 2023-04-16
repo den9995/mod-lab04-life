@@ -104,10 +104,10 @@ namespace cli_life
             }
         }
     }
-    class Program
+    public class Program
     {
-        static Board board;
-        static private void Reset()
+        static public Board board;
+        static public void Reset()
         {
             string json = File.ReadAllText(@"./config.json");
             Config data = JsonSerializer.Deserialize<Config>(json);
